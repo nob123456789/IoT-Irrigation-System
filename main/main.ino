@@ -1,4 +1,4 @@
-String myAPIkey = "ENTER API KEY HERE";  
+String myAPIkey = "my api key";  
 
 #include <Wire.h>
 #include "DS1307.h"
@@ -15,6 +15,7 @@ const int pump2 = 5;
 const int MOISTURE_1 = A0;
 const int MOISTURE_2 = A1;
 const int MOISTURE_3 = A2;
+
 
 // moisture values
 int moist1Value = 0;
